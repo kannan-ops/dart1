@@ -1,0 +1,14 @@
+void main(){
+  int a=50;
+  int b=60;
+  int c=30;
+  if(a>b && a>c){
+    print("$a is biggest number");
+  }
+  else if (b>a &&b>c){
+    print("$b is biggest number");
+  }
+  else{
+    print("$c is biggest number");
+  }
+}

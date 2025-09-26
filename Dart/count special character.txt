@@ -1,0 +1,21 @@
+void main(){
+  String input="Kannan@9600";
+  int specialchar=0;
+  
+  
+  for (int i=0; i<input.length;i++){
+    String mn=input[i];
+    
+    
+    // check if character is special
+    
+    if(mn.contains(RegExp(r'[^a-zA-Z0-9]'))){
+        specialchar++;
+    }}
+    if(specialchar>0) {
+    print("special characters found:$specialchar");
+    }
+    else {
+    print("no special characters found");
+  }
+}

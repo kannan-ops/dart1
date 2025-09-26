@@ -1,0 +1,21 @@
+void main() {
+  int x = 50;
+  print(x);
+  int y = 25;
+  print(y);
+  String name = "Kannan";
+  print(name);
+  double z = 14.2;
+  print(z);
+
+  //opearators
+  //Arithmetic
+  var a = 100;
+  var b = 30;
+  var c = a ~/ b;
+  print(c);
+
+  //Relational operator
+  var result1 = a != b;
+  print(result1);
+}

@@ -1,0 +1,31 @@
+void main() {
+  List<String> name = [
+    "santhosh", "kannan", "Nikil", "muthu"
+  ];
+  List<String> largest = [];
+  int currentMaxLength = 0;
+  for (int i = 0; i < name.length; i++) {
+    String currentName = name[i];
+
+    if (currentName.isEmpty) {
+      print("no user");
+    } else {
+     
+      if (currentName.length > currentMaxLength) {
+        currentMaxLength = currentName.length;
+        largest.clear();
+        largest.add(currentName);
+      } else if (currentName.length == currentMaxLength) {
+        largest.add(currentName);
+      }
+    }
+  }
+
+ 
+  if (largest.isNotEmpty) {
+    print("The longest name(s) found: $largest with length $currentMaxLength");
+  } else {
+   
+    print("No valid names were found to determine the longest.");
+  }
+}

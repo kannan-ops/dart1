@@ -1,0 +1,12 @@
+
+void main() {
+  List<int> a = [1, 2, 2, 3, 4, 5, 5,6,6];
+  List<int> the = [];
+
+ for(var i in a){
+   if (a.where((e)=>e==i).length==1){
+     the.add(i);
+   }
+ }
+  print("unique elements:$the");
+}

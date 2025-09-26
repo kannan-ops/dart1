@@ -1,0 +1,26 @@
+void main() {
+  String input = "KANNan9600 ";
+  int uppercase =0;
+  int lowercase =0;
+  int numbers =0;
+  for(int i =0;i < input.length;i++){
+    String as= input[i];
+    if(as.contains(RegExp(r'[A-Z]'))){
+      uppercase++;
+    }
+    else if(
+    as.contains(RegExp(r'[a-z]'))){
+      lowercase++;
+    }
+    else if (
+    as.contains(RegExp(r'[0-9]'))){
+      numbers++;
+    }
+    
+  }
+  print("uppercase letter:$uppercase");
+  print("lowercase letter:$lowercase");
+  print("numbers:$numbers");
+  
+  
+}

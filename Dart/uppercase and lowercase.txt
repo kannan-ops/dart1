@@ -1,0 +1,5 @@
+void main(){
+  String a="kannanABD";
+  print("lowercase:${a.toLowerCase()}");
+  print("uppercase:${a.toUpperCase()}");
+}

@@ -1,0 +1,8 @@
+void main(){
+  List<int> a=[2,4,6];
+  int newvalue=5;
+  a.add(newvalue);
+  a.sort();
+  print("new value added:$a");
+  
+}

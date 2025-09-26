@@ -1,0 +1,10 @@
+void main(){
+  String a="santhosh";
+  Map<String,int> count={};
+  
+  for(int i=0;i<a.length;i++){
+    String ds=a[i];
+    count[ds]=(count[ds] ?? 0)+1;
+  }
+  print("count of characters:$count");
+}

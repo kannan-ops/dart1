@@ -1,0 +1,18 @@
+void main() {
+  int number = 1051;
+  if (number % 5 == 0) {
+    print("this is even number");
+  } else {
+    print("this is odd number");
+  }
+
+  // if and else
+
+  int year = 2065;
+  if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
+    print("year is leap year");
+  } else {
+    print("year is not a leap year");
+  }
+  
+}

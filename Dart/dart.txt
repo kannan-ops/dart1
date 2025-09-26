@@ -1,0 +1,63 @@
+ void main(){
+   
+  int x = 50;
+  print(x);
+  int y = 25;
+  print(y);
+  String name = "Kannan";
+  print(name);
+  double z = 14.2;
+  print(z);
+
+  //opearators
+  //Arithmetic
+   // +,-,*,/,%,~/,++,--
+  var a = 100;
+  var b = 30;
+  var c = a ~/ b;
+  print(c);
+
+  //Relational operator
+  var result1 = a != b;
+  print(result1);
+   
+   //logical operator
+  var result2=!(x<0 || y<0);
+   print(result2);
+   
+   //assignment
+   print(x);
+   print(y);
+   x+=y;         //x=x+y
+   print(x);
+   x~/=y;
+   print(x);
+   
+   //typetest operator
+   
+   print(x is int);
+   print(x is! int);
+   print(x is! String);
+   
+   //conditional operator/ternary opeartor ? :
+   int myAge=10;
+   var isEligible=myAge>18?"Yes i am eligible":"No you are not";
+   print(isEligible);
+   
+   //null safety ?
+   int? u;
+   print(u);
+   
+   //null aware ??
+   int myage=30;
+   var age=myage??"age not provided";
+   print(age);
+   
+   //final and const
+    final  int n1;
+  n1=200;
+   print(n1);
+   const int n2=100;
+   int n3=500;
+   
+}

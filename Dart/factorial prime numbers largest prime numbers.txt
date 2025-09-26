@@ -1,0 +1,41 @@
+void main() {
+  int number = 7;
+  int fac = 1;
+
+  for (int i = 1; i <= number; i++) {
+    fac *= i;
+  }
+
+  print("Factorial of $number is $fac");
+
+  int start = 2;
+  int end = fac;
+  List<int> primes = [];
+
+  for (int j = start; j <= end; j++) {
+    bool isPrime = true;
+
+    for (int k = 2; k <= j ~/ 2; k++) {
+      if (j % k == 0) {
+        isPrime = false;
+        break;
+      }
+    }
+
+    if (isPrime) {
+      primes.add(j);
+    }
+  }
+
+  print("Prime numbers  $fac :");
+  print(primes);
+
+  int largestPrime = primes[0];
+  for (int i = 1; i < primes.length; i++) {
+    if (primes[i] > largestPrime) {
+      largestPrime = primes[i];
+    }
+  }
+
+  print("Largest prime number  $fac is $largestPrime");
+}

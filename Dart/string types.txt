@@ -1,0 +1,25 @@
+  void main(){
+     
+     String s="    Hello it is dart program i am oops";
+     print(s);
+     print(s.length);
+     
+     //methods
+     print(s.toUpperCase());
+     print(s.toLowerCase());
+     print(s.isEmpty);
+     print(s.isNotEmpty);
+     print(s.contains("i"));
+     print(s.startsWith(" H"));
+     print(s.endsWith("s"));
+     print(s.trim());
+     print(s.indexOf("i"));
+     print(s.lastIndexOf("i"));
+     print(s.substring(5,10));
+     var list=s.split(" ");
+     print(list);
+     print(list.join(" "));
+     print(s.toString());
+     print(12.toString()+"12");
+     print("hi"+"hello");
+   }

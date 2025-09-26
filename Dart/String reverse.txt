@@ -1,0 +1,12 @@
+void main() {
+  String a = "hello kannan from salem";
+  List<String> b = a.split(" ");
+  List<String> reverse = [];
+
+  
+  for (int i = b.length - 1; i >= 0; i--) {
+    reverse.add(b[i]);
+  }
+
+  print("Reversed String: ${reverse.join(" ")}");
+}

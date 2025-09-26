@@ -1,0 +1,55 @@
+ void main(){
+   int myMark=45;
+   if(myMark>50){
+     print("You are pass");
+   }
+   else{
+     print("go to tution");
+   }
+   
+   int mySalary=35000;
+      if(mySalary>=50000 && mySalary<80000){
+     print("Bike");
+   }
+   else if(mySalary>=100000 ){
+     print("Audi car");
+   }
+   
+   else if(mySalary>=80000 && mySalary<100000){
+     print("MG");
+   }
+ 
+   else{
+     print("Cycle");
+   }
+   
+   var today="Sunday";
+   switch(today){
+     case "Monday":{
+       print("Day 1");
+       break;
+     }
+     case "Tuesday":{
+       print("Day 2");
+       break;
+     }
+     case "Wenesday":{
+       print("Day 3");
+       break;
+     }
+     case "Thursday":{
+       print("Day 4");
+       break;
+     }
+     case "Friday":{
+       print("Day 5");
+       break;
+     }
+     default:{
+       print("Weekend");
+       break;
+     }
+   }
+   
+ }
+

@@ -1,0 +1,24 @@
+void main() {
+  double a = 50;
+  double b = 65;
+  String operators = '*';
+
+  switch (operators) {
+    case '+':
+      print("result:${a + b}");
+      break;
+    case '-':
+      print("result:${a - b}");
+      break;
+    case '*':
+      print("result:${a * b}");
+      break;
+      if (b != 0) {
+        print("result:${a / b}");
+      } else {
+        print("not divided by zero");
+      }
+    default:
+      print("invalid operators");
+  }
+}

@@ -1,0 +1,12 @@
+void main(){
+  int age=21;
+ if (age>18){
+   print("a person is eligible");
+ } 
+  else{
+    print("a person is not eligible");
+  }
+
+    
+  
+}
